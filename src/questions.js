@@ -66,7 +66,7 @@ function getManagerQuestions() {
       message: "What is the office number of the team manager?",
       name: "officeNumber",
       validate: (value) => {
-        if (!value) {
+        if (!value || isNaN(value)) {
           return "Please enter a valid value to continue";
         }
         return true;
