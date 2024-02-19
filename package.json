@@ -1,0 +1,28 @@
+{
+  "name": "profile-generator",
+  "version": "1.0.0",
+  "description": "a node app for generating profiles",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abisola-Morohunfolu/profile-generator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Abisola-Morohunfolu/profile-generator/issues"
+  },
+  "homepage": "https://github.com/Abisola-Morohunfolu/profile-generator#readme",
+  "dependencies": {
+    "inquirer": "^8.2.6"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
